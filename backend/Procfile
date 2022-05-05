@@ -1,0 +1,7 @@
+
+<!-- This file will be run when Heroku starts our app -->
+
+<!-- web refers to the process type -->
+<!-- node index.js will be run on the Heroku server -->
+
+web: node index.js
