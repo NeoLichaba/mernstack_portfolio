@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box; 
+  padding: 0; 
+  margin: 0;
+}
+
+
+.navbar { 
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.content-container {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  text-align: center;
+}
+
+.tabs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tab-leagues {
+  /* margin-right: 10px; */
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  border-right: 5px solid #cccccc;
+}
+
+.tab-standings {
+  width: 300px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.leagues-container {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+.league-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.league-div > img {
+  width: 250px;
+}
+
+.league-div:hover {
+  transform: scale(1.1);
+}
+
+select {
+  padding: 10px;
+  font-size: 19px;
+}
+
+.ranking-div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.ranking-div-inner {
+  margin: 20px 0;
+}
+
+.logo-small {
+  width: 25px;
+}
+
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #ffffff;
+}
