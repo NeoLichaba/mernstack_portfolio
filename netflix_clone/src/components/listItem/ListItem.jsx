@@ -2,6 +2,7 @@
 import { Add, PlayArrow, ThumbDownOutlined, ThumbUpAltOutlined } from "@material-ui/icons";
 import { useState } from "react";
 import "./listItem.scss";
+import React from "react";
 
 export default function ListItem({ index }) {
     const [isHovered, setIsHovered] = useState(false);
