@@ -82,13 +82,13 @@
     position: relative;
     right: -90%;
     transform-origin: 0 0;
-    transform: rotate(269deg);
+    transform: rotate(0deg);
   }
 
 
   .app .bottom {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     width: 100%;
     margin: 1rem auto;
@@ -100,3 +100,16 @@
   .bold {
     font-weight: 700;
   }
+
+  .weather-icon {
+    width: 100%;
+    height: 0 auto;
+  }
+
+  .weather-icon img {
+    position: relative;
+    right: -90%;
+    transform-origin: 0 0;
+    transform: rotate(0deg);
+  }
+  
