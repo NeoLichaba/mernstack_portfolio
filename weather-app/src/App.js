@@ -38,12 +38,8 @@ function App() {
     minute: '2-digit',    
   });
 
-  let sunrise = (data.sys.sunrise).toLocaleString([], {
-    hour: '2-digit',
-    minute: '2-digit',    
-  });
-
-
+  
+  
   return (
     <div className="app">
       <div className="search">
@@ -75,19 +71,16 @@ function App() {
           <div className="description">
             {data.weather ? <h2>{data.weather[0].description}</h2> : null}
           </div>
-          <div className="iconId">
-            {data.weather ? <h2>{data.weather[0].icon}</h2> : null}
-          </div>
         </div>
         {data.name !== undefined &&
           <div className="bottom">
-            <div className="sunrise">
-            {data.sys ? <h2>{sunrise}</h2> : null}
-              <p>Sunrise</p>
+            <div className="temp_max">
+            {data.main ? <h2>{data.main.temp_max.toFixed()}°C</h2> : null}
+              <p>Highs</p>
             </div>
-            <div className="sunset">
-              {data.sys ? <h2>{data.sys.sunset}</h2> : null}
-              <p>Sunset</p>
+            <div className="temp_min">
+              {data.main ? <h2>{data.main.temp_min.toFixed()}°C</h2> : null}
+              <p>Lows</p>
             </div>
             <div className="feels">
               {data.main ? <p className='bold'>{data.main.feels_like.toFixed()}°C</p> : null}
