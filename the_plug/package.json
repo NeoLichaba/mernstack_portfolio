@@ -1,0 +1,14 @@
+{
+  "name": "the_plug",
+  "version": "1.0.0",
+  "description": "MERN Shopping Cart",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "author": "Neo Lichaba",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
