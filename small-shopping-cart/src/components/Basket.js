@@ -22,9 +22,8 @@ export default function Basket(props) {
               -
             </button>
           </div>
-
           <div className='col-2 text-right'>
-            {item.qty} x ${item.price.toFixed(2)}
+            {item.qty} x R{item.price.toFixed(2)}
           </div>
         </div>
       ))}
@@ -33,19 +32,19 @@ export default function Basket(props) {
         <hr></hr>
         <div className = "row">
           <div className ="col-2">Items Price</div>
-          <div className="col-1 text-right"> ${itemsPrice.toFixed(2)}</div>
+          <div className="col-1 text-right"> R{itemsPrice.toFixed(2)}</div>
         </div>
         <div className = "row">
           <div className ="col-2">Tax Price</div>
-          <div className="col-1 text-right"> ${taxPrice.toFixed(2)}</div>
+          <div className="col-1 text-right"> R{taxPrice.toFixed(2)}</div>
         </div>
         <div className = "row">
           <div className ="col-2">Shipping Price</div>
-          <div className="col-1 text-right"> ${shippingPrice.toFixed(2)}</div>
+          <div className="col-1 text-right"> R{shippingPrice.toFixed(2)}</div>
         </div>
         <div className = "row">
           <div className ="col-2"><strong>Total Price</strong></div>
-          <div className="col-1 text-right"><strong>${totalPrice.toFixed(2)}</strong></div>
+          <div className="col-1 text-right"><strong>R{totalPrice.toFixed(2)}</strong></div>
         </div>
         <hr/>
         <div className = "row">

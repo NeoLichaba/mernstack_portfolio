@@ -10,7 +10,7 @@ export default function Header(props) {
                 </a>
             </div>
             <div>
-                <a href="#/cart">Cart
+                <a href="#/cart">
                 Cart {''}
                 {countCartItems ? (
                     <button className="badge">{countCartItems}</button>
