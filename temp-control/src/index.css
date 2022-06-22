@@ -74,3 +74,7 @@ button:focus {
 .hot {
   background: #ff5200;
 }
+
+.extremely-hot {
+  background: red;
+}
