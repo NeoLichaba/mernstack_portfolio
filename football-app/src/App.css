@@ -55,9 +55,24 @@
   align-items: center;
   justify-content: center;
   height: 50px;
+  border-right: 5px solid #cccccc;
+}
+
+.tab-stats {
+  width: 300px;
+  background-color: #000000;
+  color: #cccccc;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
 }
 
 .leagues-container {
+  background-image: url('./img/football_field.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   display: grid;
   justify-items: center;
